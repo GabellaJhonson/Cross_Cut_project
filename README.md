@@ -1,2 +1,2 @@
-# Java IP
-BSU
+# Java BSU
+Industrial programming
