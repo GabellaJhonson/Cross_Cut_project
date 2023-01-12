@@ -3,7 +3,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 /* Эта штука берет в себя строку и заменяет все выражения на ответы,
     создаете класс, а потом у него
-*   вызываете Expression(String s) куда пихаете свою строку*/
+*   вызываете Expression(String s)*/
 public class MatchParser
 {
     class Result
