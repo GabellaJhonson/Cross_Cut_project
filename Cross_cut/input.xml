@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlExpressionList>
+    <expressions>
+        <expression1>1+1</expression1>
+        <expression2>2+2</expression2>
+        <expression3>3+3</expression3>
+    </expressions>
+    <expressions>
+        <expression1>1-1</expression1>
+        <expression2>3-2</expression2>
+        <expression3>4-2</expression3>
+    </expressions>
+    <expressions>
+        <expression1>7/2</expression1>
+        <expression2>5/2</expression2>
+        <expression3>10/2</expression3>
+    </expressions>
+</xmlExpressionList>
