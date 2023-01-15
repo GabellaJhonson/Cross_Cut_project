@@ -73,7 +73,6 @@ public class FileDataSourceXml implements DataSourceXml {
                 if (list.item(i).getChildNodes().getLength() <= 1)
                     list.item(i).setTextContent(p.Expression(list.item(i).getTextContent())); //!!!!!!
             }
-
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource source = new DOMSource(doc);
