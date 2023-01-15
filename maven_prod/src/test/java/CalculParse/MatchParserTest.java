@@ -43,4 +43,8 @@ public class MatchParserTest extends TestCase {
     public void testExpression4() throws Exception {
         Assert.assertEquals("0.0", p.Expression("2 + (-2)"));
     }
+     @Test
+    public void testExpression5() throws Exception {
+        Assert.assertEquals("0.0", p.Expression("0"));
+    }
 }
