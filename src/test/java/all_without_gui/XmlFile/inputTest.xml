@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmlExpressionList>
+    <expressions>
+        <expression1>2--2</expression1>
+        <expression2>2/0</expression2>
+        <expression3>Dan Jukes</expression3>
+    </expressions>
+    <expressions>
+        <expression1>(((((2-2</expression1>
+        <expression2>2+-2</expression2>
+        <expression3>(10)</expression3>
+    </expressions>
+</xmlExpressionList>

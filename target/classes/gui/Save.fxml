@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Save">
+    <children>
+        <RadioButton disable="true" layoutX="59.0" layoutY="20.0" mnemonicParsing="false" text="XML" fx:id="xmlType">
+            <toggleGroup>
+                <ToggleGroup fx:id="FileTypes" />
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="jsonType" disable="true" layoutX="123.0" layoutY="20.0" mnemonicParsing="false" text="JSON" toggleGroup="$FileTypes" />
+        <RadioButton fx:id="txtType" disable="true" layoutX="195.0" layoutY="20.0" mnemonicParsing="false" text="TXT" toggleGroup="$FileTypes" />
+        <ListView fx:id="list" editable="true" layoutX="50.0" layoutY="102.0" prefHeight="200.0" prefWidth="200.0" />
+        <Button fx:id="addCompress" layoutX="161.0" layoutY="313.0" mnemonicParsing="false" onAction="#AddCompressToList" prefHeight="26.0" prefWidth="89.0" text="Compressive" />
+        <Button fx:id="addEncrypt" layoutX="50.0" layoutY="313.0" mnemonicParsing="false" onAction="#AddEncToList" prefHeight="26.0" prefWidth="89.0" text="Encrypt" />
+        <Button fx:id="exitButton" layoutX="161.0" layoutY="360.0" mnemonicParsing="false" onAction="#okButton" prefHeight="26.0" prefWidth="126.0" text="Save" />
+        <Text fx:id="labelFilePath" layoutX="14.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/filePath/" textAlignment="RIGHT" wrappingWidth="233.21630859375" />
+        <Button fx:id="buttonFilepath" layoutX="250.0" layoutY="50.0" mnemonicParsing="false" onAction="#getFilepath" prefHeight="10.0" prefWidth="30.0" text="...">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
